@@ -1,0 +1,30 @@
+{
+    "name": "night-owl",
+    "displayName": "night owl",
+    "description": "Azure Data Studio theme based on Night Owl theme by Sarah Drasner for VS Code",
+    "version": "0.0.1",
+    "publisher": "JonathanReeves",
+    "engines": {
+        "vscode": "^1.47.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RedHoodJT1988/night-owl-azure-data-studio"
+    },
+    "bugs": {
+        "url": "https://github.com/RedHoodJT1988/night-owl-azure-data-studio/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "night-owl",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-owl-color-theme.json"
+            }
+        ]
+    }
+}
